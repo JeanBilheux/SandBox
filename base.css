@@ -82,3 +82,7 @@ td {
 .zebraHover {
 	background-color: #fffacd;
 }
+
+.ui-tabs {
+	height: 100px;
+}
