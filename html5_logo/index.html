@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>HTML 5 Logo</title>
+		<style type="text/css">
+			footer {
+				display:block;
+				border-top: 1px solid orange;
+				margin: 10px;
+				font-family: "Trebuchet MS", Airal, Helvetica, sans-serif;
+				font-weight: bold;
+			}
+			article {
+				display:block;
+				font-family: Georgia, "Times New Roman", Times, serif;
+				margin: 5px;
+			}
+		</style>
+
+
+	<script language="JavaScript">
+
+			var ctx = document.getElementById('canvas').getContext('2d');
+			var fontfamily = "65px 'Gill Sans Ultra Bold', sans-serif";
+			var factorvalue = 1;
+		
+		function init() {
+
+			ctx.fillStyle = "#e34c26";
+			ctx.font = fontfamily;
+			ctx.save(); 
+			dologo();
+			
+		}
+		
+		function dolog() {
+			
+			var offsety = 80;
+			ctx.restore();
+			ctx.save();
+			ctx.clearRect(0,0,600,400);
+			ctx.scale(factorvalue,factorvalue); //set x and y axis to value set by slider
+			ctx.fillText("HTML", 31.60);
+			ctx.translate(o,offsety);
+			
+			//5 sided orange background
+			
+						
+			ctx.beginPath();
+			ctx.moveTo(39,250);
+			ctx.lineTo(17,0);
+			ctx.lineTo(262,0);
+			ctx.lineTo(239,250);
+			ctx.lineTo(139,278);
+			ctx.closePath();
+			ctx.fill();
+			
+			//text
+			ctx.fillText("HTML",31,60);			
+			
+		}
+		
+		
+	</script>
+	
+	
+	
+	</head>
+	<body onload="init();">
+		<canvas id="canvas" width="600" height="400">
+			Your browser does not support the canvas element.
+		</canvas>
+		
+	</body>
+</html>
