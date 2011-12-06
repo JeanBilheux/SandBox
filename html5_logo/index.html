@@ -28,7 +28,6 @@
 		
 		function init() {
 
-			ctx.fillStyle = "#e34c26";
 			ctx.font = fontfamily;
 			ctx.save(); 
 			dologo();
@@ -46,8 +45,7 @@
 			ctx.translate(o,offsety);
 			
 			//5 sided orange background
-			
-						
+			ctx.fillStyle = "#e34c26";
 			ctx.beginPath();
 			ctx.moveTo(39,250);
 			ctx.lineTo(17,0);
@@ -56,6 +54,16 @@
 			ctx.lineTo(139,278);
 			ctx.closePath();
 			ctx.fill();
+			
+			//right hand,lighter orange part of the background
+			ctx.fillStyle = "#f06529";
+			ctx.beginPath();
+			ctx.moveTo(139,257);
+			ctx.lineTo(220,234);
+			
+			
+			
+			
 			
 			//text
 			ctx.fillText("HTML",31,60);			
