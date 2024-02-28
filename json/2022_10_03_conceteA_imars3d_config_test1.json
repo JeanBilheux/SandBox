@@ -11,7 +11,7 @@
         "inputs": {
             "ct_dir": "/HFIR//CG1D/IPTS-30028/raw/ct_scans/2022_10_03_conceteA/", 
             "ob_dir": "/HFIR/CG1D/IPTS-30028/raw/ob/2022_10_03_conceteB/", 
-            "dc_dir": ["/HFIR/CG1D/IPTS-30028/raw/df/2022_10_03_conceteB",
+            "dc_dir": "/HFIR/CG1D/IPTS-30028/raw/df/2022_10_03_conceteB",
             "ct_fnmatch": "*.tiff", 
             "ob_fnmatch": "*.tiff",
             "dc_fnmatch": "*.tiff"
