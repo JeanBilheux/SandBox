@@ -9,7 +9,7 @@
         "name": "task1",
         "function": "imars3d.backend.dataio.data.load_data", 
         "inputs": {
-            "ct_dir": ["/HFIR//CG1D/IPTS-30028/raw/ct_scans/2022_10_03_conceteA/20221003_sampleA_0030_169_950_3720.tiff",
+            "ct_files": ["/HFIR//CG1D/IPTS-30028/raw/ct_scans/2022_10_03_conceteA/20221003_sampleA_0030_169_950_3720.tiff",
                        "/HFIR//CG1D/IPTS-30028/raw/ct_scans/2022_10_03_conceteA/20221003_sampleA_0030_174_900_375.tiff",
                        "/HFIR//CG1D/IPTS-30028/raw/ct_scans/2022_10_03_conceteA/20221003_sampleA_0030_169_950_3720.tiff",
                        "/HFIR//CG1D/IPTS-30028/raw/ct_scans/2022_10_03_conceteA/20221003_sampleA_0030_169_950_3720.tiff"
