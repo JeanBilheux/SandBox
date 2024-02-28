@@ -23,7 +23,7 @@
                   "function": "imars3d.backend.morph.crop.crop",
                   "inputs": {
                     "arrays": "ct",
-                    "crop_limit": [0, -1, 0, -1]
+                    "crop_limit": [552, 1494, 771, 1296]
                     }, 
                     "outputs": ["ct"]
               }, 
@@ -33,7 +33,7 @@
                   "inputs": 
                   {
                       "arrays": "ob", 
-                      "crop_limit": [0, -1, 0, -1]
+                      "crop_limit": [552, 1494, 771, 1296]
                   }, 
                   "outputs": ["ob"]
               },
@@ -43,7 +43,7 @@
                   "inputs": 
                   {
                       "arrays": "dc", 
-                      "crop_limit": [0, -1, 0, -1]
+                      "crop_limit": [552, 1494, 771, 1296]
                   }, 
                     "outputs": ["dc"]
                 }, 
